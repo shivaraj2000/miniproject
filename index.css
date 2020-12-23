@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("log.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 225px;
+  text-align: center;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px 15px;
+}
+
+
+.signup{
+	position: absolute;
+	background-color: darkblue;
+  border-radius: 50px;
+	text-align: right;
+	top: 83%;
+  left:4%;
+}
+.signin{
+	position: absolute;
+	background-color: darkblue;
+  border-radius: 50px;
+	text-align: right;
+	top: 60.5%;
+    right:28%;
+}    
+
+button {
+  margin: 0px 0px;
+  padding: 7px;
+  width: 100%;
+  border-radius: 100px;
+  color: white;
+  background-color: rgba(0, 0, 100, 0);
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+h1{
+	text-align: center;
+	padding-top: 3%;
+}
+h5{
+  font-size: 20px;
+  font-style: italic;
+
+}
